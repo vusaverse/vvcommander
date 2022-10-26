@@ -1,6 +1,6 @@
 Package: vvcommander
 Title: Set Project Dependent Functions
-Version: 0.4.3.9000
+Version: 0.4.4
 Authors@R: c(
     person("Hadley", "Wickham", email = "hadley@rstudio.com", role = "cre"),
     person("Winston", "Chang", email = "winston@rstudio.com", role = "aut"),
