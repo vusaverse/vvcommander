@@ -20,18 +20,3 @@ sa_branch_get <- function() {
   getOption("VUStudentAnalytics.branch")
 }
 
-
-#'Current git branch
-#'
-#'Determine the current git branch
-#'@export
-current_git_branch <- function() {
-  ## Get a list of all available branches
-  Branches <- system("git branch", intern = TRUE)
-  ## The branch with the asterisk before the name is the current branch
-  Current_Branch <- Branches[grepl("\\* ", Branches)]
-  ## Remove the asterisks from the text
-  Branch <- gsub("\\* ", "", Current_Branch)
-  ## Return the branch name
-  return(Branch)
-}

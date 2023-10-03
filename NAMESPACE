@@ -2,7 +2,7 @@
 
 export(.repath)
 export(close_view)
-export(current_git_branch)
+export(get_git_branch)
 export(sa_branch_get)
 export(sa_branch_set)
 export(sa_network_dir_get)
